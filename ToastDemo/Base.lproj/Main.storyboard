@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uif-yk-nDh">
-                                <rect key="frame" x="91" y="170" width="139" height="30"/>
+                                <rect key="frame" x="91" y="86" width="139" height="30"/>
                                 <state key="normal" title="点击显示Toast"/>
                                 <connections>
                                     <action selector="showAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mJT-DI-kPh"/>

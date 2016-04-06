@@ -23,6 +23,12 @@
     
     //要注意，直接放这里是不显示的。
     //[[UIApplication sharedApplication]keyWindow]还没有加载
+    
+    UILabel *download = [[UILabel alloc]initWithFrame:CGRectMake(10, 180, self.view.frame.size.width-20, 80)];
+    download.text = @"demo下载地址：\nhttps://github.com/cjq002/ToastDemo.git";
+    download.textAlignment = NSTextAlignmentCenter;
+    download.numberOfLines = 0;
+    [self.view addSubview:download];
 }
 
 - (IBAction)showAction:(id)sender {
